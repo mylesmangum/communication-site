@@ -1,0 +1,190 @@
+/* 
+Theme
+Main Color : #efefef
+Secondary Color : #caebf2
+Accent Color : #ff3b3f
+Text Color : #a9a9a9
+
+*/
+
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #e2e2e2;
+            color: #ffffff;
+        }
+        header {
+            background: #363636;
+            color: #ffffff;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        main {
+            font-size: 1.2rem;
+            
+        }
+        .item_container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: #363636;
+            
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        h1 {
+            margin-top: 0;
+        }
+        h2 {
+            font-size: 2rem;
+            text-align: center;
+        }
+        a {
+            font-size: 1rem;
+        }
+        ul.articles {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: stretch;
+            padding: 0;
+        }
+        ul.articles li {
+            width: 40%;
+            margin: 1rem 0;
+            padding: 2rem;
+            background: #6d6d6d;
+            border-color: #efefef;
+            border-radius: 3vh;
+            transition: background 0.2s;
+        }
+        .text_item {
+            width: 75%;
+            margin: auto;
+            padding: 1rem;
+            background: #6d6d6d;
+            border-radius: 3vh;
+        }
+        ul.articles a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+            font-size: 1rem;
+        }
+        footer {
+            text-align: center;
+            color: #888;
+            margin: 2rem 0 1rem 0;
+        }
+        .myths_section {
+            display: flex;
+            flex-wrap: wrap;
+            background-color: #6d6d6d;
+            border-radius: 3vh;
+            padding: 5%;
+        }
+        .myth_container{
+            width: 40%;
+            margin: 2%;
+            padding: 3%;
+            background-color: #aa4a4a;
+            border-radius: 3vh;
+            transform: scale(1);
+            transition: transform 0.3s ease;
+        }
+        .myth_container:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+        .truth_container {
+            width: 40%;
+            margin: 2%;
+            padding: 3%;
+            background-color: #4ca563;
+            border-radius: 3vh;
+            transform: scale(1);
+            transition: transform 0.3s ease;
+        }
+        .truth_container:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+.article {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    max-width: 900px;
+    margin: 40px auto;
+    background: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    padding: 32px;
+}
+
+.article-image img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.08);
+}
+
+.article-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.article-title {
+    font-size: 2.2rem;
+    margin-bottom: 1.2rem;
+    color: #2a4d69;
+    font-weight: 700;
+}
+
+.article-content p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+header nav {
+    margin-top: 1rem;
+}
+header .home-link {
+    background: #fff;
+    color: #2d3e50;
+    padding: 0.5rem 1.2rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.2s, color 0.2s;
+    border: 1px solid #2d3e50;
+    display: inline-block;
+}
+header .home-link:hover {
+    background: #2a4d69;
+    color: #fff;
+}
+.research_container {
+    background-color: #6d6d6d;
+    padding: 5%;
+    border-radius: 3vh;
+}
+
+.button_container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.link_button {
+    padding: 0.5rem 1.2rem;
+    background-color: #272727;
+    border-radius: 4px;
+}
+.lie_background {
+    background-image: './lie detector.png';
+}
